@@ -1,8 +1,31 @@
-*{
+body{
 	font-family: sans-serif;
 	color: white;
 	background-color: grey;
 }
 h1, h2 {
 	text-align: center;
+}
+h2 {
+	font-size: 1em;
+	font-weight: 50;
+	font-style: italic;
+}
+form {
+	width: 70%;
+	background-color: blue;
+	margin-left: auto;
+	margin-right: auto;
+}
+label {
+	margin-left: auto;
+	margin-right: auto;
+}
+input {
+	display: block;
+	width: 80%;
+	margin: 10px auto 10px auto;
+}
+#submit{
+	color: green;
 }
